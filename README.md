@@ -25,3 +25,7 @@
 ### Multiplayer
 Supports P2P multiplayer, though host requires a port-forwarded address for non-LAN connections to work.
 I DO NOT KNOW HOW TO WRITE NETCODE, expect bugs.
+
+### Custom Images
+Custom images are supported. Any png image added to content/images will be detected by the program and can be used as a level.
+Any pixel with partial or full transparency will be treated as an empty tile to allow for backgroundless images to be used.
